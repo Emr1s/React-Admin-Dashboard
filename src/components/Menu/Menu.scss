@@ -1,0 +1,32 @@
+.menu{
+    .container{
+        display: flex;
+        flex-direction: column;
+        .span{
+            font-size: 16px;
+            color: #999;
+        }
+        .categories{
+            display: flex;
+            align-items: center;
+            margin: 5px 20px;
+            font-size: 16px;
+            font-weight: 500;
+
+            .link{
+                text-decoration: none;
+                color: #fff;
+                display: flex;
+                align-items: center;
+                gap: 10px;
+            }
+
+            &:hover{
+                cursor: pointer;
+                background-color: #999;
+            }
+        }
+
+        
+    }
+}
