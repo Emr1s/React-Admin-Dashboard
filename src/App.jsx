@@ -1,4 +1,4 @@
-import './App.css'
+import './App.scss'
 import { Outlet, RouterProvider,createBrowserRouter } from 'react-router-dom'
 import Home from './pages/Home/Home'
 import Users from './pages/Users/Users'

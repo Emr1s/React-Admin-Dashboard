@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.main{
+  width: 100%;
+  background: #272E3D;
+  color: #fff;
+  .conteiner{
+    display: flex;
+    .menuContainer{
+      width: 250px;
+      padding: 0 20px;
+      border-right: 1px solid #999;
+    }
+    .contentContainer{
+      width: 100%;
+      padding: 0 20px;
+    }
+  }
+}
