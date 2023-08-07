@@ -1,0 +1,35 @@
+.topDeals{
+    display: flex;
+    flex-direction: column;
+    height: 520px;
+    overflow: auto;
+
+    .listDeals{
+        display: flex;
+        align-items: center;
+        .infoUser{
+            display: flex;
+            flex-direction: column;
+            width: 60%;
+            .price{
+                display: flex;
+                align-items: center;
+                p{
+                    font-size: 16px;
+                    font-weight: 500;
+                }
+            }
+            
+            span{
+                font-size: 14px;
+            }
+        }
+
+        img{
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+    }
+}
