@@ -1,32 +1,50 @@
-.menu{
-    .container{
+@import "../../responsive/responsive.scss";
+.menu {
+    .container {
         display: flex;
         flex-direction: column;
-        .span{
+
+        .span {
             font-size: 16px;
             color: #999;
+            @include lg {
+                display: none;
+            }
         }
-        .categories{
+
+        .categories {
             display: flex;
             align-items: center;
             margin: 5px 20px;
             font-size: 16px;
             font-weight: 500;
-
-            .link{
-                text-decoration: none;
-                color: #fff;
-                display: flex;
-                align-items: center;
-                gap: 10px;
+            
+            
+           
+           .themes{
+            @include lg {
+                display: none;
             }
-
-            &:hover{
-                cursor: pointer;
-                background-color: #999;
-            }
+           }
+            
         }
 
         
+        .link {
+            text-decoration: none;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            @include lg {
+                margin: 10px 0;
+                gap: 0;
+            }
+          
+            &:hover {
+                cursor: pointer;
+                background: #999;
+            }
+        }
     }
 }

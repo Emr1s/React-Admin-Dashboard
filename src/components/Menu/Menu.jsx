@@ -6,10 +6,10 @@ import { FiSettings, FiUsers } from 'react-icons/fi'
 import { AiOutlineBarChart, AiOutlineShoppingCart } from 'react-icons/ai'
 import { RxCube } from 'react-icons/rx'
 import { HiOutlineDocumentText } from 'react-icons/hi'
-import {LuClipboardList} from 'react-icons/lu'
-import {PiListBulletsBold, PiNotePencilBold } from 'react-icons/pi'
-import {MdBackupTable } from 'react-icons/md'
-import {BsClipboardData } from 'react-icons/bs'
+import { LuClipboardList } from 'react-icons/lu'
+import { PiListBulletsBold, PiNotePencilBold } from 'react-icons/pi'
+import { MdBackupTable } from 'react-icons/md'
+import { BsClipboardData } from 'react-icons/bs'
 
 const Menu = () => {
   const menu = [
@@ -119,12 +119,12 @@ const Menu = () => {
         <div className="container" key={item.name}>
           <span className='span'>{item.name}</span>
           {item.line.map(line => (
-            <div className="categories" key={line.text}>
-              <Link to={line.path} className='link'>
+            <Link to={line.path} className='link' key={line.text}>
+              <div className="categories" >
                 {line.icon}
-                <span>{line.text}</span>
-              </Link>
-            </div>
+                <span className='themes'>{line.text}</span>
+              </div>
+            </Link>
           ))}
         </div>
       ))}

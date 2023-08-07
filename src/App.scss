@@ -1,7 +1,9 @@
+
 *{
   margin: 0;
   padding: 0;
 }
+
 
 .main{
   width: 100%;
@@ -10,9 +12,13 @@
   .conteiner{
     display: flex;
     .menuContainer{
-      width: 250px;
+      width: 180px;
       padding: 0 20px;
       border-right: 1px solid #999;
+      @media screen and (max-width: 768px){
+        width: max-content;
+        
+      }
     }
     .contentContainer{
       width: 100%;

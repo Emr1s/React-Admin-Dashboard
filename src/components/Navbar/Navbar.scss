@@ -1,3 +1,5 @@
+@import "../../responsive/responsive.scss";
+
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -40,6 +42,10 @@
                 color: white;
              }
 
+            }
+
+            @include sm {
+                display: none;
             }
 
         }
