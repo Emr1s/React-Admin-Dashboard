@@ -54,7 +54,7 @@ const Home = () => {
 
   const data2 = [
     { name: 'Mobile', value: 400 },
-    { name: 'Desctop', value: 300 },
+    { name: 'Desktop', value: 300 },
     { name: 'Laptop', value: 300 },
     { name: 'Tablet', value: 200 },
   ];
