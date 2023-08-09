@@ -1,0 +1,64 @@
+.addUser {
+    width: 99vw;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+
+
+    .addForm {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .form {
+            background-color: #272E3D;
+            padding: 20px;
+            width: 400px;
+            border-radius: 10px;
+
+            .item {
+                display: flex;
+                align-items: center;
+
+                label {
+                    width: 100px;
+                    font-size: 20px;
+                }
+
+                input {
+                    width: 50%;
+                    padding: 5px;
+                }
+            }
+
+            .info {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                span {
+                    font-size: 20px;
+
+                    &:hover {
+                        cursor: pointer;
+                    }
+                }
+            }
+
+            .btn {
+                display: flex;
+                justify-content: end;
+                button {
+                    padding: 10px 20px;
+                    margin-top: 20px;
+
+                }
+            }
+        }
+
+    }
+}
