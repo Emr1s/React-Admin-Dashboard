@@ -1,0 +1,25 @@
+.users{
+    width: 99%;
+    .title{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        button{
+            padding: 10px;
+        }
+    }
+
+    .action{
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        justify-content: center;
+        
+        .link{
+            text-decoration: none;
+            color: #000;
+            margin-top: 5px;
+        }
+    }
+    
+}
